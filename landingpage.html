@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url(https://www.shutterstock.com/image-photo/gorgeous-pretty-girl-holding-beauty-600nw-2545606933.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .lotus {
+            background-color: azure;
+        }
+        .logo {
+            background-color: azure;
+            float: right;
+        }
+        nav section {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(232, 66, 94, 0.705);
+        }
+        a:hover {
+            color: white;
+            transform: scale(1.1);
+        }
+        nav section a {
+            color: black;
+            margin: 0 14px;
+            font-size: 20px;
+            padding: 15px;
+        }
+        .shop {
+            background-color: yellow;
+            padding: 10px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        .contacts-color {
+            color: rgb(97, 12, 86);
+            font-size: 20px;
+        }
+        .sec1 {
+            display: flex;
+            justify-content: space-around;
+        }
+        .Ls {
+            width: 30%;
+            font-size: 90px;
+            font-weight: bolder;
+            color: azure;
+        }
+        .sec1 {
+            margin: 10px;
+            padding: 5px;
+        }
+        .Rs {
+            width: 50%;
+        }
+        .boxes-container div {
+            border-radius: 10%;
+        }
+        h3 {
+            font-weight: bolder;
+        }
+        .divide {
+            display: flex;
+            justify-content: space-between;
+        }
+        .right {
+            padding: 30px;
+            margin: 20px;
+            font-size: 22px;
+            font-weight: bolder;
+        }
+        .box {
+            list-style: none;
+            justify-content: space-around;
+            border: 2px solid;
+            width: 30%;
+            height: 250px;
+            padding: 20px;
+            margin: 50px 20px;
+            font-family: "Roboto Condensed";
+        }
+        .boxes-container div:hover {
+            color: azure;
+            transform: scale(1.1);
+        }
+        .shopp {
+            margin: 20px;
+            padding: 8px;
+            background-color: yellow;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a class="lotus"><img
+            src="https://www.lotus.in/cdn/shop/files/Copy-of-LOTUS-HERBALS_9da8eb0e-9456-487d-8cd7-600e35066411.jpg?v=1668496681&width=2048"
+            height="100px" width="250px"></a>
+    <a class="logo"><img src="https://t4.ftcdn.net/jpg/03/20/72/69/360_F_320726945_LkRr3dUyELmwPLnhkx7pfMH5wTduCqvN.jpg"
+            height="100px" width="250px"></a>
+    <hr>
+    <nav>
+        <div>
+            <section>
+                <a href="home">Home</a>
+                <a href="about">Pricing</a>
+                <a href="projects">Rating</a>
+                <a href="skills">Reviews</a>
+                <a href="contact">Contact Us</a>
+                <a href="Shop Now"><button class="shop">Shop now</button></a>
+            </section>
+        </div>
+    </nav>
+    <hr>
+    <section class="sec1">
+        <div class="Ls">
+            <p>Welcome to the world of Lotus Herbals>></p>
+        </div>
+        <div class="Rs">
+        </div>
+    </section>
+    <section>
+        <div class="boxes-container">
+            <a>
+                <div class="box">
+                    <h3>Day Cream</h3>
+                    <nav class="divide">
+                        <div class="left">
+                            <img src="https://m.media-amazon.com/images/I/51SBvvInYnL._UF1000,1000_QL80_.jpg "
+                                height="200px" width="200px">
+                        </div>
+                        <div class="right">
+                            <div>25% off</div>
+                            <div class="price">Rs.270/-</div>
+                            <a href="button"><button class="shop">Buy now</button></a>
+                        </div>
+                    </nav>
+                </div>
+            </a>
+            <a>
+                <div class="box">
+                    <h3>Face Wash</h3>
+                    <nav class="divide">
+                        <div class="left">
+                            <img src="https://m.media-amazon.com/images/I/616EoNUtZaL.jpg" height="150px" width="200px">
+                        </div>
+                        <div class="right">
+                            <div>15% off</div>
+                            <div class="price">Rs.299/-</div>
+                            <a href="button"><button class="shop">Buy now</button></a>
+                        </div>
+                    </nav>
+                </div>
+            </a>
+            <a>
+                <div class="box">
+                    <h3>Toner</h3>
+                    <nav class="divide">
+                        <div class="left">
+                            <img src="https://www.lotusbotanicals.com/cdn/shop/files/Vitamin_C_Skin_Brightening_Face_Toner_1600x1600-01_1_1200x1200_crop_center.jpg?v=1750236380 
+                " height="150px" width="200px">
+                        </div>
+                        <div class="right">
+                            <div>20% off</div>
+                            <div class="price">Rs.499/-</div>
+                            <a href="button"><button class="shop">Buy now</button></a>
+                        </div>
+                    </nav>
+                </div>
+                <a href="Shop Now"><button class="shopp">Click here for more products</button></a>
+                <hr>
+            </a>
+            <div class="contacts-color">
+                <h4 class="contact">Contact Us At:</a>
+                    <br>
+                    <i class="fa-solid fa-square-phone"></i>
+                    123-456-6781
+                    <br>
+                    <i class="fa-solid fa-envelope"></i>
+                    lotusherbals@gmail.com
+                </h4>
+            </div>
+    </section>
+</body>
+</html>
