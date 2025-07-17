@@ -1,4 +1,4 @@
-# Landing Page – Oasis Infobyte Internship Level 1: Task 2
+# Landing Page – Oasis Infobyte Internship Level 1: Task 1
 
 This is a responsive landing page created as part of the Oasis Infobyte Web Development and Designing Internship 
 
